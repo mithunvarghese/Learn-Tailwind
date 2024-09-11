@@ -1,4 +1,44 @@
-<div class="flex">
-    <h1>Test1</h1>
-    <h2>Test 2</h2>
+<div class="flex h-screen ">
+    <img class="hidden lg:block w-1/2" src="https://img.freepik.com/free-photo/still-life-colored-transparent-sunglasses_52683-107576.jpg?t=st=1726072138~exp=1726075738~hmac=009599c19b370a19f0de0e813008cf35f4f6a8a67ad2247628d904f0ecb80237&w=360" alt="">
+    <div class="flex flex-col justify-center items-center w-full">
+        <div>
+            
+            <div class="text-xl text-center font-bold lg:text-left">
+                <span>FarmMan</span>
+            
+
+            </div>
+            <div class="text-3xl text-center font-bold lg:text-left">
+                <h1>Hello,</h1>
+                <h1>Welcome back</h1>
+            </div>
+
+            <form action="" class="mt-8 w-[80%] lg:w-96 mx-auto space-y-4">
+                <h4 class="font-bold">Please login here</h4>
+                <input class="border w-full px-4 py-2" type="email" placeholder="email">
+                <input class="border w-full px-4 py-2" type="password" placeholder="password">
+                <div class="text-blue-600 cursor-pointer hover:text-blue-400">Forgot password?</div>
+                <button class="bg-green-700 w-full rounded text-white px-2 py-2 hover:bg-green-400">login</button>
+                <div class="text-center font-bold">or</div>
+                <div class="flex justify-center space-x-9">
+                    <div>
+                        <fa-icon class="w-20 h-20 text-xl cursor-pointer" [icon]="pound"></fa-icon>
+                    </div>
+                    <div>
+                        <fa-icon class="text-xl cursor-pointer" [icon]="rs"></fa-icon>
+
+                    </div>
+                    <div>
+                        <fa-icon class="text-xl cursor-pointer" [icon]="dollar"></fa-icon>
+
+                    </div>
+                </div>
+                
+            </form>
+            <div class="pt-2 mt-3 text-bold text-center">
+                Don't have an account? Sign up here.    
+            </div>
+
+        </div>
+    </div>
 </div>
