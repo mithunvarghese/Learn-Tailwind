@@ -8,5 +8,4 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'Learn-Tailwind';
-  faCheck=faCheck
 }
